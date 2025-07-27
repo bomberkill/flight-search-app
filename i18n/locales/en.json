@@ -1,0 +1,97 @@
+{
+  "welcome": "Welcome to the Flight Search App",
+  "auth": {
+    "login": "Sign In",
+    "loginTitle": "Welcome back",
+    "loginDescription": "Log in to search and book the best flight deals.",
+    "register": "Sign Up",
+    "registerTitle": "Create an account",
+    "registerDescription": "Sign up to explore and book the best flight deals tailored to your needs.",
+    "email": "Email",
+    "password": "Password",
+    "forgotPassword": "Forgot password?",
+    "submit": "Submit",
+    "resetPassword": "Reset Password",
+    "confirmPassword": "Confirm Password",
+    "backToLogin": "Already have an account?",
+    "noAccount": "Don't have an account yet?",
+    "description": "Connect to access flight search features."
+  },
+  "message":{
+    "loginSuccess": "Sign in successfully",
+    "registerSuccess": "Sign up successfully",
+    "welcome": "Welcome aboard!",
+    "error": "Error",
+    "unexpectedError": "An unexpected error occurred."
+  },
+  "validation": {
+    "required": "Required",
+    "invalidEmail": "Invalid email",
+    "passwordMin": "Password must be at least 6 characters",
+    "confirmPasswordMatch": "Passwords must match"
+  },
+  "search": {
+    "labels": {
+      "origin": "Origin city or airport",
+      "destination": "Destination city or airport",
+      "departure": "Departure",
+      "return": "Return",
+      "adults": "Adults",
+      "children": "Children",
+      "infants": "Infants",
+      "travelClass": "Travel Class"
+    },
+    "placeholders": {
+      "origin": "Where are you flying from?",
+      "destination": "Where are you flying to?",
+      "datePicker": "Select a date"
+    },
+    "descriptions": {
+      "adults": "12 years and over",
+      "children": "2-12 years",
+      "infants": "0-2 years"
+    },
+    "travelClasses": {
+      "economy": "Economy",
+      "premium_economy": "Premium Economy",
+      "business": "Business",
+      "first": "First"
+    },
+    "buttons": {
+      "searchFlights": "Search flights"
+    },
+    "validation": {
+      "originRequired": "Please select an origin city or airport",
+      "destinationRequired": "Please select a destination city or airport",
+      "departureDateRequired": "Departure date is required",
+      "returnDateInvalid": "Return date must be on or after departure date",
+      "adultsRequired": "Number of adults is required",
+      "adultsMin": "At least one adult is required",
+      "childrenMin": "Number of children cannot be negative",
+      "infantsMin": "Number of infants cannot be negative",
+      "travelClassRequired": "Please select a travel class",
+      "travelClassInvalid": "Invalid travel class"
+    }
+  },
+  "explore": {
+    "screens": {
+      "search": {
+        "title": "Search for a flight"
+      },
+      "result": {
+        "title": "Available Flights"
+      }
+    }
+  },
+  "result": {
+    "duration": "Duration:",
+    "price": "Price:",
+    "stops": "Number of stops:",
+    "noFlightsFound": "No flights found for this search.",
+    "fetchError": "An error occurred while fetching the flights.",
+    "labels": {
+      "departure": "Departure",
+      "return": "Return"
+    }
+  }
+}

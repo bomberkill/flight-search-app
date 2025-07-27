@@ -1,0 +1,96 @@
+{
+  "auth": {
+    "login": "Connexion",
+    "loginTitle": "Bienvenue",
+    "loginDescription": "Connectez-vous pour rechercher et réserver les vols au meilleur prix.",
+    "register": "S'inscrire",
+    "registerTitle": "Créer un compte",
+    "registerDescription": "Inscrivez-vous pour explorer et réserver les meilleures offres de vols adaptées à vos besoins.",
+    "email": "Email",
+    "password": "Mot de passe",
+    "forgotPassword": "Mot de passe oublié ?",
+    "submit": "Soumettre",
+    "resetPassword": "Réinitialiser le mot de passe",
+    "confirmPassword": "Confirmer le mot de passe",
+    "backToLogin": "Vous avez déjà un compte ?",
+    "noAccount": "Vous n'avez pas encore de compte ?",
+    "description": "Connectez-vous pour accéder aux recherches de vols."
+  },
+  "message":{
+    "loginSuccess": "Connexion réussie",
+    "registerSuccess": "Création de compte réussie",
+    "welcome": "Bienvenue à bord !",
+    "error": "Erreur",
+    "unexpectedError": "Une erreur est survenue"
+  },
+  "validation": {
+    "required": "Requis",
+    "invalidEmail": "Email invalide",
+    "passwordMin": "Min 6 caractères",
+    "confirmPasswordMatch": "Les mots de passe doivent correspondre"
+  },
+  "search": {
+    "labels": {
+      "origin": "Ville ou aéroport de départ",
+      "destination": "Ville ou aéroport de destination",
+      "departure": "Départ",
+      "return": "Retour",
+      "adults": "Adultes",
+      "children": "Enfants",
+      "infants": "Bébés",
+      "travelClass": "Classe de voyage"
+    },
+    "placeholders": {
+      "origin": "D'où partez-vous ?",
+      "destination": "Où allez-vous ?",
+      "datePicker": "Sélectionner une date"
+    },
+    "descriptions": {
+      "adults": "12 ans et +",
+      "children": "2-12 ans",
+      "infants": "0-2 ans"
+    },
+    "travelClasses": {
+      "economy": "Économique",
+      "premium_economy": "Économique Premium",
+      "business": "Affaires",
+      "first": "Première"
+    },
+    "buttons": {
+      "searchFlights": "Rechercher des vols"
+    },
+    "validation": {
+      "originRequired": "Veuillez sélectionner une ville ou un aéroport de départ",
+      "destinationRequired": "Veuillez sélectionner une ville ou un aéroport de destination",
+      "departureDateRequired": "La date de départ est obligatoire",
+      "returnDateInvalid": "La date de retour doit être après ou le même jour que le départ",
+      "adultsRequired": "Le nombre d'adultes est requis",
+      "adultsMin": "Au moins un adulte est requis",
+      "childrenMin": "Le nombre d'enfants ne peut pas être négatif",
+      "infantsMin": "Le nombre de bébés ne peut pas être négatif",
+      "travelClassRequired": "Veuillez sélectionner une classe de voyage",
+      "travelClassInvalid": "Classe de voyage invalide"
+    }
+  },
+  "explore": {
+    "screens": {
+      "search": {
+        "title": "Rechercher un vol"
+      },
+      "result": {
+        "title": "Vols proposés"
+      }
+    }
+  },
+  "result": {
+    "duration": "Durée :",
+    "price": "Prix :",
+    "stops": "Nombre d’escales :",
+    "noFlightsFound": "Aucun vol trouvé pour cette recherche.",
+    "fetchError": "Une erreur est survenue lors de la récupération des vols.",
+    "labels": {
+      "departure": "Départ",
+      "return": "Retour"
+    }
+  }
+}

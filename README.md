@@ -1,50 +1,42 @@
-# Welcome to your Expo app 👋
+# ✈️ Flight Search App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A mobile application for searching flights between two destinations, with departure/return dates, passenger counts, and travel class options. Built with **React Native** using **Expo**, `expo-router`, `Formik`, `i18next`, and flight APIs for location suggestions and result listings.
 
-## Get started
+## 📱 Features Overview
 
-1. Install dependencies
+- 📍 Dynamic location input with autocomplete
+- 📅 Departure and return date pickers
+- 👥 Passenger selector (adults, children, infants)
+- 🧳 Travel class selector (economy, business, etc.)
+- 🔎 Result listing with flight details
+- 🌐 Internationalization support with `i18next`
 
-   ```bash
-   npm install
-   ```
+---
 
-2. Start the app
+## 🛠️ Tech Stack
 
-   ```bash
-   npx expo start
-   ```
+- **React Native** (via [Expo](https://expo.dev/))
+- **expo-router** for routing/navigation
+- **Formik + Yup** for form management and validation
+- **React Native Dropdown Picker** for custom dropdowns
+- **i18next** for multilingual support
+- **Axios** for HTTP requests
+- **TypeScript** for static typing
+- **Skyscanner API** (or similar) for locations and flight data
 
-In the output, you'll find options to open the app in a
+---
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## 🚀 Getting Started
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+### Prerequisites
 
-## Get a fresh project
+- Node.js (>= 18.x)
+- Yarn or npm
+- Expo CLI: `npm install -g expo-cli`
 
-When you're ready, run:
+### Installation
 
 ```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+git clone https://github.com/bomberkill/flight-search-app.git
+cd explore-flights-app
+npm install
