@@ -8,6 +8,13 @@ export default function ExploreLayout() {
     <Stack>
       {/* <Stack.Screen name="index" options={{ headerShown: false }} /> */}
       <Stack.Screen
+          name="search"
+          options={{
+              title: t('explore.screens.search.title'),
+              // headerTitleAlign: 'center',
+          }} 
+      />
+      <Stack.Screen
           name="result"
           options={{
               title: t('explore.screens.result.title'),
@@ -15,13 +22,6 @@ export default function ExploreLayout() {
               headerBackVisible: true,
           }} 
       />
-        <Stack.Screen
-            name="search"
-            options={{
-                title: t('explore.screens.search.title'),
-                // headerTitleAlign: 'center',
-            }} 
-        />
     </Stack>
   );
 }

@@ -44,7 +44,7 @@ export default function Register() {
                 text1: t('message.registerSuccess'),
                 text2: t('message.welcome'),
               });
-              // navigation.('Home');
+              router.push('/explore/search');
             } catch (err: any) {
               console.log("Error during login", err);
               Toast.show({

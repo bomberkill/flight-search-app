@@ -17,11 +17,11 @@ export default function SearchSummaryCard({ origin, destination, departureDate, 
         ✈️ {origin} → {destination}
       </ThemedText>
       <ThemedText style={styles.dateText}>
-        📅 {t('result.labels.departure')} : {format(new Date(departureDate), "d MMMM yyyy")}
+        📅 {t('search.labels.departure')} : {format(new Date(departureDate), "d MMMM yyyy")}
       </ThemedText>
       {returnDate && (
         <ThemedText style={styles.dateText}>
-          🔁 {t('result.labels.return')} : {format(new Date(returnDate), "d MMMM yyyy")}
+          🔁 {t('search.labels.return')} : {format(new Date(returnDate), "d MMMM yyyy")}
         </ThemedText>
       )}
     </ThemedView>
